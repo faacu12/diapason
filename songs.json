@@ -1,0 +1,488 @@
+[
+  {
+    "id": "vencedores-vencidos",
+    "order": 1,
+    "title": "Vencedores vencidos",
+    "artist": "Patricio Rey y sus Redonditos de Ricota",
+    "album": "Un baión para el ojo idiota",
+    "year": 1988,
+    "key": {
+      "tonic": "D",
+      "mode": "minor"
+    },
+    "scale": "Re menor natural, con La y Sol mayores prestados",
+    "practiceBpm": 110,
+    "info": "Uno de los himnos de los Redondos, del disco Un baión para el ojo idiota. Es un rock seco y machacón: casi todo el tema gira alrededor de Re menor, y la fuerza está en la actitud del rasgueo más que en cambios difíciles. Muy bueno para practicar acordes menores y el paso Dm–Am.",
+    "analysis": "La base de la estrofa es Dm–Am (i–v). Usar la quinta menor en lugar de la mayor le da ese color oscuro, sin resolver. Cada estrofa se abre hacia Gm (iv). El estribillo baja Dm–C–Bb–C (i–VII–VI–VII), el movimiento eólico típico del rock. Al cerrar la estrofa aparece La mayor alternando con Sol mayor: el La (V, de la escala menor armónica) mete tensión y el Sol mayor (IV, color dórico) suena más luminoso que el Gm de la estrofa. Para improvisar encima sirven la escala de Re menor y la pentatónica de Re menor.",
+    "notes": "En el disco la intro y el estribillo van con quintas (D5–C5–Bb5) y un arpegio de guitarra. En la criolla tocá los acordes completos. Acordes armados a partir de transcripciones públicas: si algo no te suena igual que la grabación, confiá en tu oído.",
+    "sections": [
+      {
+        "id": "intro",
+        "name": "Intro",
+        "repeat": 2,
+        "note": "En el disco, arpegio sobre quintas",
+        "bars": [
+          "Dm",
+          "C",
+          "Bb",
+          "C"
+        ]
+      },
+      {
+        "id": "estrofa",
+        "name": "Estrofa",
+        "repeat": 1,
+        "bars": [
+          "Dm",
+          "Dm",
+          "Am",
+          "Am",
+          "Dm",
+          "Dm",
+          "Am",
+          "Am",
+          "Gm",
+          "Gm",
+          "Gm",
+          "Gm"
+        ]
+      },
+      {
+        "id": "remate",
+        "name": "Remate",
+        "repeat": 1,
+        "note": "«…vencedores vencidos»",
+        "bars": [
+          "A",
+          "G",
+          "A",
+          "G"
+        ]
+      },
+      {
+        "id": "estribillo",
+        "name": "Estribillo",
+        "repeat": 2,
+        "note": "«¡Te has fugado! ¡Me hago humo!…»",
+        "bars": [
+          "Dm",
+          "C",
+          "Bb",
+          "C"
+        ]
+      },
+      {
+        "id": "interludio",
+        "name": "Interludio",
+        "repeat": 1,
+        "bars": [
+          "Dm",
+          "Am",
+          "Dm",
+          "Am",
+          "Gm",
+          "Dm",
+          "Gm",
+          "A",
+          "Dm",
+          "Bb",
+          "C",
+          "C"
+        ]
+      },
+      {
+        "id": "final",
+        "name": "Final",
+        "repeat": 1,
+        "note": "«…la tribu de mi calle»",
+        "bars": [
+          "Dm",
+          "C",
+          "Bb",
+          "C",
+          "Bb C",
+          "Dm C",
+          "Bb Am",
+          "Dm"
+        ]
+      }
+    ],
+    "form": [
+      "intro",
+      "estrofa",
+      "remate",
+      "estribillo",
+      "estrofa",
+      "remate",
+      "estribillo",
+      "interludio",
+      "estrofa",
+      "remate",
+      "estribillo",
+      "final"
+    ]
+  },
+  {
+    "id": "una-piba-greenpeace",
+    "order": 2,
+    "title": "Una piba con la remera de Greenpeace",
+    "artist": "Patricio Rey y sus Redonditos de Ricota",
+    "album": "Momo Sampler",
+    "year": 2000,
+    "key": {
+      "tonic": "B",
+      "mode": "minor"
+    },
+    "scale": "Si menor natural; el puente se va a La menor / Do",
+    "practiceBpm": 120,
+    "info": "Del último disco de estudio de los Redondos, Momo Sampler, con música de Skay e Indio Solari. Es el tema más escuchado del disco. La banda la describió como una historia simple, igual de simple que los pocos acordes que la sostienen: un riff de quintas que da vueltas sobre Si.",
+    "analysis": "El riff de las estrofas es B5–D5–G5 (i–III–VI en Si menor), y en el estribillo se suma F#5 (V), que empuja de vuelta a Si. Como son quintas (sin tercera), el color menor lo pone la melodía; en la criolla podés cambiar B5 por Bm si querés un sonido más lleno. El «mirar atrás» cierra con E5–A5 (IV–VII). El puente es el momento de contraste: pasa a acordes abiertos (Am, C, D) con un bajo que baja nota por nota, casi como otra canción, y después vuelve al riff.",
+    "notes": "En el disco casi todo son quintas (power chords). Las formas del puente salen de una transcripción de AcordesWeb; para simplificar podés tocar Am – Em – C – D. El orden de las partes es aproximado.",
+    "shapes": {
+      "Em(b6)": "022010",
+      "C/B": "x20010"
+    },
+    "sections": [
+      {
+        "id": "riff",
+        "name": "Riff / estrofa",
+        "repeat": 2,
+        "note": "Las quintas dan vueltas bajo cada verso",
+        "bars": [
+          "B5",
+          "D5",
+          "G5",
+          "G5"
+        ]
+      },
+      {
+        "id": "puente",
+        "name": "Puente",
+        "repeat": 1,
+        "note": "«Ya se cansó de dormir…»",
+        "bars": [
+          "Am",
+          "Em(b6)",
+          "C",
+          "C/B",
+          "D",
+          "Dsus4 D"
+        ]
+      },
+      {
+        "id": "estribillo",
+        "name": "Estribillo",
+        "repeat": 4,
+        "note": "«Se aparta corriendo de…»",
+        "bars": [
+          "B5 D5",
+          "G5 F#5"
+        ]
+      },
+      {
+        "id": "cierre",
+        "name": "Cierre",
+        "repeat": 1,
+        "note": "«…mirar atrás»",
+        "bars": [
+          "E5",
+          "A5"
+        ]
+      }
+    ],
+    "form": [
+      "riff",
+      "puente",
+      "riff",
+      "estribillo",
+      "cierre",
+      "riff",
+      "puente",
+      "riff",
+      "estribillo",
+      "cierre",
+      "estribillo"
+    ]
+  },
+  {
+    "id": "basket-case",
+    "order": 3,
+    "title": "Basket Case",
+    "artist": "Green Day",
+    "album": "Dookie",
+    "year": 1994,
+    "key": {
+      "tonic": "Eb",
+      "mode": "major"
+    },
+    "scale": "Mi bemol mayor",
+    "practiceBpm": 150,
+    "info": "Uno de los cortes de Dookie, el disco que puso a Green Day en el mapa. Billie Joe Armstrong la escribió sobre sus ataques de ansiedad. Punk pop rápido con acordes de manual: si te sale este, te salen cientos de temas.",
+    "analysis": "La estrofa es I–V–vi–iii–IV–I–V (Eb–Bb–Cm–Gm–Ab–Eb–Bb), pariente directa del Canon de Pachelbel: el bajo baja casi nota por nota. El estribillo es IV–V–I (Ab–Bb–Eb), la cadencia más fuerte que hay, y en «cracking up» mete un Db (bVII, prestado del modo mixolidio) antes de caer en Cm. Todo sale de la escala de Mi bemol mayor; para puntear, la pentatónica mayor de Eb.",
+    "notes": "Green Day afina medio tono abajo y toca con formas de Mi (E–B–C#m–G#m–A). Dos formas fáciles en criolla: afinar medio tono abajo (está en el afinador) y usar esas formas, o la cejilla que te sugiere la app.",
+    "sections": [
+      {
+        "id": "estrofa",
+        "name": "Estrofa",
+        "repeat": 2,
+        "note": "La primera vez, solo guitarra y voz",
+        "bars": [
+          "Eb",
+          "Bb",
+          "Cm",
+          "Gm",
+          "Ab",
+          "Eb",
+          "Bb",
+          "Bb"
+        ]
+      },
+      {
+        "id": "estribillo",
+        "name": "Estribillo",
+        "repeat": 1,
+        "note": "«Sometimes I give myself the creeps…»",
+        "bars": [
+          "Ab",
+          "Bb",
+          "Eb",
+          "Eb",
+          "Ab",
+          "Bb",
+          "Eb",
+          "Eb",
+          "Ab",
+          "Bb",
+          "Eb Db",
+          "Cm",
+          "Ab",
+          "Bb",
+          "Eb",
+          "Eb"
+        ]
+      },
+      {
+        "id": "remate",
+        "name": "Remate",
+        "repeat": 2,
+        "bars": [
+          "Eb Bb",
+          "Cm Bb"
+        ]
+      },
+      {
+        "id": "puente",
+        "name": "Puente",
+        "repeat": 1,
+        "note": "«Grasping to control…», en mute y creciendo",
+        "bars": [
+          "Ab",
+          "Ab",
+          "Bb",
+          "Bb"
+        ]
+      },
+      {
+        "id": "solo",
+        "name": "Solo",
+        "repeat": 1,
+        "note": "Instrumental sobre la estrofa",
+        "bars": [
+          "Eb",
+          "Bb",
+          "Cm",
+          "Gm",
+          "Ab",
+          "Eb",
+          "Bb",
+          "Bb"
+        ]
+      },
+      {
+        "id": "final",
+        "name": "Final",
+        "repeat": 4,
+        "bars": [
+          "Eb Cm",
+          "Ab",
+          "Eb",
+          "Bb"
+        ]
+      },
+      {
+        "id": "ultimo",
+        "name": "Último golpe",
+        "repeat": 1,
+        "bars": [
+          "Ab",
+          "Eb",
+          "Bb"
+        ]
+      }
+    ],
+    "form": [
+      "estrofa",
+      "estribillo",
+      "remate",
+      "estrofa",
+      "estribillo",
+      "remate",
+      "puente",
+      "solo",
+      "estribillo",
+      "final",
+      "ultimo"
+    ]
+  },
+  {
+    "id": "wasted-years",
+    "order": 4,
+    "title": "Wasted Years",
+    "artist": "Iron Maiden",
+    "album": "Somewhere in Time",
+    "year": 1986,
+    "key": {
+      "tonic": "E",
+      "mode": "minor"
+    },
+    "scale": "Mi menor natural (eólica)",
+    "practiceBpm": 120,
+    "info": "Primer single de Somewhere in Time y uno de los pocos temas de Maiden escritos solo por Adrian Smith. Habla de la nostalgia de vivir de gira, lejos de casa. Para acompañar cantando en la criolla funciona muy bien: son todos acordes abiertos en Mi menor.",
+    "analysis": "La estrofa va y viene entre Em y D (i–VII), muy de heavy. El pre-estribillo pasa por C (VI) y vuelve. El estribillo arranca en G, el relativo mayor (III), y por eso suena a «levantar»: G–C–Am–D (III–VI–iv–VII), y cada frase cierra con Em–D–C (i–VII–VI), la bajada eólica. Todo sale de la escala de Mi menor natural; para solear, la pentatónica de Mi menor.",
+    "notes": "Acá van los acordes para acompañar, no el riff (que es un punteo sobre Mi). El solo tiene su propia base y no está en esta ficha.",
+    "sections": [
+      {
+        "id": "intro",
+        "name": "Intro",
+        "repeat": 2,
+        "note": "Riff de guitarra; acompañá con Em y D",
+        "bars": [
+          "Em",
+          "Em",
+          "D",
+          "D"
+        ]
+      },
+      {
+        "id": "estrofa",
+        "name": "Estrofa",
+        "repeat": 2,
+        "note": "«From the coast of gold…»",
+        "bars": [
+          "Em",
+          "D",
+          "Em",
+          "D"
+        ]
+      },
+      {
+        "id": "pre",
+        "name": "Pre-estribillo",
+        "repeat": 1,
+        "note": "«Ain't it funny how it is…»",
+        "bars": [
+          "C",
+          "Em",
+          "D",
+          "C"
+        ]
+      },
+      {
+        "id": "estribillo",
+        "name": "Estribillo",
+        "repeat": 2,
+        "note": "«So understand…»",
+        "bars": [
+          "G",
+          "C Am",
+          "D",
+          "C Am",
+          "Em",
+          "D",
+          "C",
+          "C"
+        ]
+      }
+    ],
+    "form": [
+      "intro",
+      "estrofa",
+      "pre",
+      "estribillo",
+      "estrofa",
+      "pre",
+      "estribillo",
+      "estribillo"
+    ]
+  },
+  {
+    "id": "el-cielo-puede-esperar",
+    "order": 5,
+    "title": "El cielo puede esperar",
+    "artist": "Attaque 77",
+    "album": "El cielo puede esperar",
+    "year": 1990,
+    "key": {
+      "tonic": "G#",
+      "mode": "minor"
+    },
+    "scale": "Sol# menor, con el estribillo en Si mayor (su relativo)",
+    "practiceBpm": 140,
+    "info": "Abre el disco homónimo de Attaque 77 y es uno de sus clásicos, firmado por Ciro Pertusi y Mariano Martínez. Punk rock directo con letra de calle. Ojo: hay transcripciones en Sol# menor y otras en Sol menor; si no te coincide con la grabación, bajá medio tono con el botón de tono.",
+    "analysis": "La estrofa baja G#m–F#–E–D#–C#m–D# (i–VII–VI–V–iv–V): todo de la escala de Sol# menor, salvo el D# mayor, la dominante de la menor armónica, que tira con fuerza de vuelta al i. En el estribillo cambia el centro: E–F#–B es IV–V–I en Si mayor, el relativo mayor, y por eso «el cielo puede esperar» suena más abierto que la estrofa. Esa jugada (estrofa en menor, estribillo en el relativo mayor) es muy común en el punk y el rock.",
+    "notes": "La parte «Por las noches tengo que robar…» no aparece en las transcripciones que consulté: sacala de oído. Con la cejilla que sugiere la app casi todo queda en acordes abiertos.",
+    "sections": [
+      {
+        "id": "intro",
+        "name": "Intro",
+        "repeat": 2,
+        "bars": [
+          "G#m",
+          "F#",
+          "E",
+          "D#",
+          "C#m",
+          "D#"
+        ]
+      },
+      {
+        "id": "estrofa",
+        "name": "Estrofa",
+        "repeat": 2,
+        "note": "«Demasiado alcoholizado…»",
+        "bars": [
+          "G#m",
+          "F#",
+          "E",
+          "D#",
+          "C#m",
+          "D# F#"
+        ]
+      },
+      {
+        "id": "estribillo",
+        "name": "Estribillo",
+        "repeat": 1,
+        "note": "«El cielo… el cielo puede esperar»",
+        "bars": [
+          "E",
+          "F#",
+          "B G#m",
+          "F# E F#",
+          "B E",
+          "F#",
+          "B G#m",
+          "F# E F#"
+        ]
+      }
+    ],
+    "form": [
+      "intro",
+      "estrofa",
+      "estribillo",
+      "estrofa",
+      "estribillo",
+      "estribillo"
+    ]
+  }
+]
