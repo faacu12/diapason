@@ -607,5 +607,102 @@
       "remate",
       "final"
     ]
+  },
+  {
+    "id": "pabellon-septimo",
+    "order": 7,
+    "title": "Pabellón Séptimo (Relato de Horacio)",
+    "artist": "Indio Solari",
+    "album": "El tesoro de los inocentes (Bingo Fuel)",
+    "year": 2004,
+    "key": {
+      "tonic": "Bb",
+      "mode": "minor"
+    },
+    "scale": "Si♭ menor, con color dórico (Mi♭ mayor)",
+    "practiceBpm": 116,
+    "info": "Del primer disco solista del Indio, grabado en su casa-estudio de Parque Leloir, y uno de los temas que más se cantan en sus recitales. Cuenta la Masacre del Pabellón Séptimo, ocurrida el 14 de marzo de 1978 en la cárcel de Villa Devoto durante la dictadura. El Indio la escribió a partir del libro Crónica de muertes silenciadas y está inspirada en la historia de Luis Canosa, un amigo de la banda desde antes de los Redondos, que murió en esa masacre.",
+    "analysis": "Todo gira alrededor de Bbm (i), y casi siempre vuelve a él pasando por Ab (VII), el mismo vaivén i–VII que tienen Wasted Years o Vencedores vencidos. Las estrofas arrancan en Eb mayor (IV). Ese Eb tiene un Sol natural que no está en Si♭ menor natural: es el color dórico, que le da al relato un aire más abierto y menos fúnebre de lo que pide la letra. En «Pruebo trepar…» aparece Gb (VI), el acorde más oscuro del tema, que cae directo en la tónica. Con cejilla en el 1 tocás las formas de las transcripciones en La menor: Eb → D, Bbm → Am, Ab → G, Gb → F (el F con cejilla). La app sugiere cejilla en el 6, donde todo queda abierto: A, Em, D, C. Para improvisar, la pentatónica de Si♭ menor (o la de La menor con cejilla en 1).",
+    "notes": "Hay transcripciones en Si♭ menor y otras en La menor con cejilla en el traste 1: es la misma armonía. Usá el botón de cejilla de la app para ver las formas abiertas. El orden y la cantidad de compases son estimados a partir de transcripciones públicas: confirmalos escuchando el disco.",
+    "sections": [
+      {
+        "id": "intro",
+        "name": "Intro",
+        "repeat": 1,
+        "bars": [
+          "Eb",
+          "Eb",
+          "Bbm Ab",
+          "Bbm Ab",
+          "Gb",
+          "Gb",
+          "Bbm Ab",
+          "Bbm Ab"
+        ]
+      },
+      {
+        "id": "estrofa",
+        "name": "Estrofa",
+        "repeat": 2,
+        "note": "«Me asfixio…» / «Una explosión…»",
+        "bars": [
+          "Eb",
+          "Eb",
+          "Bbm Ab",
+          "Bbm"
+        ]
+      },
+      {
+        "id": "estribillo",
+        "name": "Estribillo",
+        "repeat": 1,
+        "note": "«Quiero salir, quiero escapar…»",
+        "bars": [
+          "Eb",
+          "Eb",
+          "Bbm Ab",
+          "Bbm",
+          "Eb",
+          "Eb",
+          "Bbm Ab",
+          "Bbm"
+        ]
+      },
+      {
+        "id": "trepar",
+        "name": "Puente",
+        "repeat": 2,
+        "note": "«Pruebo trepar…» / «Viejita, amor…»",
+        "bars": [
+          "Gb",
+          "Gb",
+          "Bbm",
+          "Bbm"
+        ]
+      },
+      {
+        "id": "final",
+        "name": "Final",
+        "repeat": 1,
+        "note": "«…olvidarte, Pablo»",
+        "bars": [
+          "Gb",
+          "Bbm Ab",
+          "Bbm",
+          "Bbm"
+        ]
+      }
+    ],
+    "form": [
+      "intro",
+      "estrofa",
+      "estribillo",
+      "trepar",
+      "estribillo",
+      "estrofa",
+      "estribillo",
+      "trepar",
+      "final"
+    ]
   }
 ]
