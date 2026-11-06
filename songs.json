@@ -484,5 +484,128 @@
       "estribillo",
       "estribillo"
     ]
+  },
+  {
+    "id": "fusilados-cruz-roja",
+    "order": 6,
+    "title": "Fusilados por la Cruz Roja",
+    "artist": "Patricio Rey y sus Redonditos de Ricota",
+    "album": "La mosca y la sopa",
+    "year": 1991,
+    "key": {
+      "tonic": "A",
+      "mode": "minor"
+    },
+    "scale": "La menor, con color dórico (D mayor) y un Si♭ prestado en el puente",
+    "practiceBpm": 150,
+    "info": "Segundo tema de La mosca y la sopa, el quinto disco de los Redondos, firmado por Indio Solari y Skay Beilinson. Internamente también lo llamaban «Serrucho». La tapa del disco anterior, ¡Bang! ¡Bang! Estás liquidado (1989), ya lo anunciaba: Rocambole pintó a miembros de la Cruz Roja como el pelotón de fusilamiento. Es un rock nervioso que se apoya casi todo en un riff de Skay sobre La.",
+    "analysis": "Las estrofas se quedan en Am (i) mientras la guitarra toca el riff, así que para acompañar alcanza con un Am firme y bien rítmico. En «hundido en tu propia herida» y «vieja cultura frita» alterna C y D (III y IV). Ese D mayor tiene un F#, que no está en La menor natural: es el color del modo dórico, el mismo truco que el Sol mayor de Vencedores vencidos. El solo y el final cambian de clima con F – C – Bb (VI – III – bII). Por un momento suena a Fa mayor (I – V – IV de Fa), y el Si♭ es un semitono arriba de la tónica, lo que le da ese aire raro y amenazante. Vuelve a casa por G (VII) → Am. Para improvisar, la pentatónica de La menor funciona en casi todo el tema.",
+    "notes": "Para acompañar en criolla: Am en las estrofas, C–D en los remates, y F y Bb con cejilla en el solo y el final. Algunas transcripciones ponen D7 en vez de C–D y G7 en el robocop: las dos opciones funcionan. Acordes armados a partir de transcripciones públicas; las cantidades de compases son estimadas, confirmalas escuchando el disco.",
+    "sections": [
+      {
+        "id": "intro",
+        "name": "Intro / riff",
+        "repeat": 1,
+        "note": "Riff de Skay sobre La",
+        "bars": [
+          "Am",
+          "Am",
+          "Am",
+          "Am"
+        ]
+      },
+      {
+        "id": "estrofa",
+        "name": "Estrofa",
+        "repeat": 1,
+        "note": "«Hay, hay…»",
+        "bars": [
+          "Am",
+          "Am",
+          "Am",
+          "Am",
+          "Am",
+          "Am",
+          "Am",
+          "Am"
+        ]
+      },
+      {
+        "id": "remate",
+        "name": "Remate",
+        "repeat": 1,
+        "note": "«…hundido en tu propia herida» / «…vieja cultura frita»",
+        "bars": [
+          "C",
+          "D",
+          "C",
+          "D",
+          "C",
+          "D",
+          "C",
+          "D"
+        ]
+      },
+      {
+        "id": "solo",
+        "name": "Solo",
+        "repeat": 1,
+        "note": "Cambia el clima: aparece el Si♭",
+        "bars": [
+          "F",
+          "C",
+          "Bb F",
+          "Am",
+          "F",
+          "C",
+          "Bb",
+          "G"
+        ]
+      },
+      {
+        "id": "robocop",
+        "name": "Robocop",
+        "repeat": 1,
+        "note": "«Te encanará un robocop…»",
+        "bars": [
+          "G7",
+          "G7",
+          "G7",
+          "G7"
+        ]
+      },
+      {
+        "id": "final",
+        "name": "Final",
+        "repeat": 1,
+        "note": "Último «robocop», sobre la base del solo",
+        "bars": [
+          "F",
+          "C",
+          "Bb F",
+          "Am",
+          "F",
+          "C",
+          "Bb",
+          "G"
+        ]
+      }
+    ],
+    "form": [
+      "intro",
+      "estrofa",
+      "remate",
+      "estrofa",
+      "remate",
+      "solo",
+      "intro",
+      "estrofa",
+      "remate",
+      "robocop",
+      "intro",
+      "estrofa",
+      "remate",
+      "final"
+    ]
   }
 ]
