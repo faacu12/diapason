@@ -704,5 +704,97 @@
       "trepar",
       "final"
     ]
+  },
+  {
+    "id": "fuiste-tu",
+    "order": 8,
+    "title": "Fuiste tú",
+    "artist": "Ricardo Arjona y Gaby Moreno",
+    "album": "Independiente",
+    "year": 2012,
+    "key": {
+      "tonic": "F",
+      "mode": "major"
+    },
+    "scale": "Fa mayor",
+    "practiceBpm": 76,
+    "info": "Segundo single de Independiente (2011), el disco con el que Arjona arrancó su propio sello. Salió en febrero de 2012 y es un dúo con la también guatemalteca Gaby Moreno: cada uno canta una estrofa y se cruzan en los estribillos. Llegó al número uno de Latin Pop Songs de Billboard y estuvo nominada a Canción y Grabación del Año en los Latin Grammy. Es una balada lenta, ideal para practicar cambios limpios y un rasgueo suave.",
+    "analysis": "Es el primer tema de tu biblioteca en tonalidad mayor de punta a punta, y usa los cinco acordes más comunes de Fa mayor: F (I), Bb (IV), C (V), Dm (vi) y Am (iii). Las estrofas van y vienen entre F y Bb (I–IV), un vaivén tranquilo que deja lugar a la voz, y después bajan a Dm–Am (vi–iii), la parte más melancólica. El estribillo arranca justo ahí: Dm – Am – Bb – F (vi – iii – IV – I) es la misma bajada que usa Basket Case, prima del Canon de Pachelbel. Cada frase cierra con C – Bb – F (V – IV – I): en vez de ir directo de la dominante a la tónica pasa por el IV, y eso hace que el final suene suave, más resignado que triunfal, que es justo lo que dice la letra. Para puntear encima, la pentatónica mayor de Fa.",
+    "notes": "En Fa mayor, F y Bb son con cejilla. Sin capo tenés dos opciones con el botón de Tono: +2 te deja G, C, Em, Bm y D (el Bm lo podés hacer como Bm7: x 2 0 2 0 2), y −5 te deja C, F, Am, Em y G (solo el F tiene cejilla; usá el F corto). Algunas transcripciones lo tocan con capo en el 1 y formas de Mi: es la misma armonía. Acordes armados a partir de transcripciones públicas; las cantidades de compases son estimadas.",
+    "sections": [
+      {
+        "id": "intro",
+        "name": "Intro",
+        "repeat": 1,
+        "bars": [
+          "F",
+          "Bb",
+          "F",
+          "F"
+        ]
+      },
+      {
+        "id": "estrofa",
+        "name": "Estrofa",
+        "repeat": 1,
+        "note": "«Fuiste tú…»: la primera la canta Arjona, la segunda Gaby",
+        "bars": [
+          "F",
+          "Bb",
+          "F",
+          "Bb",
+          "F",
+          "Dm",
+          "Am",
+          "Bb",
+          "F",
+          "C",
+          "Bb",
+          "Bb"
+        ]
+      },
+      {
+        "id": "coro",
+        "name": "Estribillo",
+        "repeat": 1,
+        "note": "«Qué fácil fue tocar el cielo…»",
+        "bars": [
+          "Dm",
+          "Am",
+          "Bb",
+          "F",
+          "Dm",
+          "Am",
+          "Bb",
+          "F",
+          "C",
+          "C",
+          "Bb",
+          "Bb"
+        ]
+      },
+      {
+        "id": "final",
+        "name": "Final",
+        "repeat": 1,
+        "note": "Último «fuiste tú»",
+        "bars": [
+          "F",
+          "C",
+          "Bb",
+          "F"
+        ]
+      }
+    ],
+    "form": [
+      "intro",
+      "estrofa",
+      "estrofa",
+      "coro",
+      "estrofa",
+      "coro",
+      "coro",
+      "final"
+    ]
   }
 ]
