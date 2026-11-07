@@ -181,6 +181,11 @@ h2.view-title{font-family:var(--f-display);font-weight:800;font-size:clamp(34px,
 .practice-pos{font-family:var(--f-mono);font-size:12px;color:var(--muted)}
 .empty{border:1px dashed var(--line);border-radius:14px;padding:20px;color:var(--muted);display:flex;flex-direction:column;gap:6px}
 .empty b{color:var(--ink)}
+.howto{display:flex;flex-direction:column;gap:6px;padding-top:10px;border-top:1px solid var(--line)}
+.howto:first-of-type{border-top:0;padding-top:0}
+.howto h4{margin:0;font-size:14px;font-weight:700;color:var(--brass)}
+.tabbox{overflow-x:auto;background:var(--surface-2);border-radius:10px;padding:10px 12px}
+.tabbox pre{margin:0;font-family:var(--f-mono);font-size:13px;line-height:1.35;white-space:pre}
 .add-row{display:flex;gap:8px;flex-wrap:wrap}
 .add-row input{flex:1 1 220px;min-width:0;border:1px solid var(--line);background:var(--surface);color:var(--ink);border-radius:999px;padding:8px 14px;font:inherit}
 input[type=range]{accent-color:var(--brass)}
@@ -633,6 +638,7 @@ function songView(){
       <dl class="facts"><div><dt>Disco</dt><dd>${esc(s.album)}</dd></div><div><dt>Año</dt><dd>${esc(s.year)}</dd></div><div><dt>Tonalidad</dt><dd>${keyName(keyPc,s.key.mode,fl)}${n?` <span class="small">(original: ${spell(key0.pc,useFlats(key0.pc,s.key.mode))}${s.key.mode==='minor'?'m':''})</span>`:''}</dd></div><div><dt>Escala</dt><dd>${esc(s.scale)}</dd></div></dl></div>
     <p class="prose">${esc(s.info)}</p>
     <div class="panel"><h3>Cómo está armado</h3><p class="prose">${esc(s.analysis)}</p><p class="small">Debajo de cada acorde va su grado en la tonalidad (números romanos: mayúscula = mayor, minúscula = menor). El grado no cambia aunque transportes.</p></div>
+    ${(s.howto||[]).length?`<div class="panel"><h3>Cómo tocarlo</h3>${s.howto.map(h=>`<div class="howto">${h.title?`<h4>${esc(h.title)}</h4>`:''}${h.text?`<p class="prose">${esc(h.text)}</p>`:''}${h.tab?`<div class="tabbox"><pre>${esc(h.tab)}</pre></div>`:''}</div>`).join('')}${n||capo?'<p class="small">Las tablaturas están en el tono original: no cambian con el botón de Tono ni con la cejilla.</p>':''}</div>`:''}
     <div class="toolbar">
       <span class="row"><span class="tlabel">Tono</span><span class="stepper"><button id="tr-down" aria-label="Bajar medio tono">−</button><output>${n>0?'+':''}${n}</output><button id="tr-up" aria-label="Subir medio tono">+</button></span></span>
       ${bc.capo>0?`<button class="btn" id="capo-btn" aria-pressed="${!!capo}">${capo?`Cejilla en ${capo} ✓`:`Más fácil: cejilla en ${bc.capo}`}</button>`:''}

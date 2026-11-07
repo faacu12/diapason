@@ -796,5 +796,132 @@
       "coro",
       "final"
     ]
+  },
+  {
+    "id": "sube-a-mi-voiture",
+    "order": 9,
+    "title": "Sube a mi voiture",
+    "artist": "Riff",
+    "album": "Zona de nadie",
+    "year": 1992,
+    "key": {
+      "tonic": "D",
+      "mode": "major"
+    },
+    "scale": "Re mayor con color de blues (Re mixolidio / pentatónica de Re)",
+    "practiceBpm": 90,
+    "info": "Rock and roll de Riff, la banda que Pappo armó a comienzos de los 80 y que fue la piedra fundacional del heavy argentino. Este tema es de la etapa de los 90, del disco Zona de nadie, y dura menos de tres minutos: es Pappo en modo Chuck Berry, con letra en broma sobre Jenny, que se sube a cualquier Mercedes Benz y no a la «voiture» del narrador.",
+    "analysis": "Usa solo tres acordes: D (I), G (IV) y A (V), los tres pilares de cualquier blues o rock and roll. La forma es un blues estirado: la estrofa se queda en D todo el tiempo y el estribillo hace el recorrido clásico G – D – A – G – D (IV – I – V – IV – I). Esa vuelta, que sube al V y baja por el IV para volver a casa, es la misma del blues de 12 compases. Lo que le da el sabor rockero no son los acordes sino cómo se tocan: en vez de rasguear acordes enteros se toca el «boogie», que alterna la quinta y la sexta del acorde sobre la nota grave (abajo tenés las tablaturas). Pappo además le mete la séptima menor (C sobre D, G sobre A, F sobre G), y eso es lo que suena a blues. Para solear, pentatónica de Re menor o mayor.",
+    "notes": "Las cantidades de compases son estimadas a partir de transcripciones públicas, y en vivo Riff estiraba las partes. Las tablaturas de «Cómo tocarlo» son el patrón clásico de boogie adaptado a la posición abierta, no una transcripción nota por nota del disco.",
+    "howto": [
+      {
+        "title": "1. El pulso: shuffle",
+        "text": "Este rock and roll no se toca con corcheas parejas. Cada tiempo se parte en dos golpes desiguales, uno largo y uno corto: «taaa-ka, taaa-ka». Es un tresillo con la nota del medio callada. Contá «UNO-y DOS-y TRES-y CUATRO-y» estirando el número. Tocá todo hacia abajo (púa o índice) y apoyá un poco la palma derecha sobre las cuerdas, cerca del puente, para que suene seco y pesado."
+      },
+      {
+        "title": "2. El boogie en D",
+        "text": "Son solo dos cuerdas. La 4ª cuerda (D) suena al aire todo el tiempo y en la 3ª alternás el traste 2 (la quinta, A) y el traste 4 (la sexta, B). Índice en el 2, anular o meñique en el 4. Dos golpes en cada traste: cada par de números es un tiempo.",
+        "tab": "      1   y   2   y   3   y   4   y\nG |---2---2---4---4---2---2---4---4---|\nD |---0---0---0---0---0---0---0---0---|"
+      },
+      {
+        "title": "3. Lo mismo en A y en G",
+        "text": "La figura se mueve entera. En A bajás una cuerda: 5ª al aire y la 4ª alterna trastes 2 y 4. En G la nota grave es la 6ª cuerda en el traste 3 y la 5ª alterna 5 y 7. La de G pide estirar la mano: si no llegás, hacé solo 3 y 5 (sin la sexta) hasta que se afloje.",
+        "tab": "A:\nD |---2---2---4---4---2---2---4---4---|\nA |---0---0---0---0---0---0---0---0---|\n\nG:\nA |---5---5---7---7---5---5---7---7---|\nE |---3---3---3---3---3---3---3---3---|"
+      },
+      {
+        "title": "4. El toque Pappo: la séptima",
+        "text": "Cuando ya te sale, agregá un traste más arriba de la sexta: 2 – 4 – 5 – 4. Ese 5 es la séptima menor (C en el acorde de D) y es lo que hace sonar a blues. Usalo en el último compás antes de cambiar de acorde, o todo el tiempo si te gusta.",
+        "tab": "D:\nG |---2---2---4---4---5---5---4---4---|\nD |---0---0---0---0---0---0---0---0---|\n\nA:\nD |---2---2---4---4---5---5---4---4---|\nA |---0---0---0---0---0---0---0---0---|\n\nG:\nA |---5---5---7---7---8---8---7---7---|\nE |---3---3---3---3---3---3---3---3---|"
+      },
+      {
+        "title": "5. Cómo practicarlo",
+        "text": "Primero tocá la forma con acordes enteros (D, G y A) rasgueando cuatro golpes por compás, con el modo Practicar a 80–90 bpm. Después reemplazá cada compás por un compás de boogie del acorde que corresponde. Recién cuando el cambio de D a G sale sin cortar el pulso, subí de a 10 bpm. El disco va bastante más rápido: no hace falta llegar enseguida."
+      }
+    ],
+    "sections": [
+      {
+        "id": "intro",
+        "name": "Intro",
+        "repeat": 1,
+        "note": "Boogie",
+        "bars": [
+          "D",
+          "D",
+          "G",
+          "D",
+          "A",
+          "G",
+          "D",
+          "D"
+        ]
+      },
+      {
+        "id": "estrofa",
+        "name": "Estrofa",
+        "repeat": 1,
+        "note": "«Jenny…»: todo en D, boogie sin parar",
+        "bars": [
+          "D",
+          "D",
+          "D",
+          "D",
+          "D",
+          "D",
+          "D",
+          "D"
+        ]
+      },
+      {
+        "id": "estribillo",
+        "name": "Estribillo",
+        "repeat": 1,
+        "note": "«Sube a mi voiture…»",
+        "bars": [
+          "G",
+          "G",
+          "D",
+          "D",
+          "A",
+          "G",
+          "D",
+          "D"
+        ]
+      },
+      {
+        "id": "solo",
+        "name": "Solo",
+        "repeat": 1,
+        "note": "Pappo solea; vos seguí con el boogie",
+        "bars": [
+          "D",
+          "D",
+          "D",
+          "D",
+          "D",
+          "D",
+          "D",
+          "D",
+          "G",
+          "G",
+          "D",
+          "D",
+          "A",
+          "G",
+          "D",
+          "D"
+        ]
+      }
+    ],
+    "form": [
+      "intro",
+      "estrofa",
+      "estribillo",
+      "estrofa",
+      "estribillo",
+      "solo",
+      "estrofa",
+      "estribillo",
+      "estribillo"
+    ]
   }
 ]
