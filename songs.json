@@ -923,5 +923,104 @@
       "estribillo",
       "estribillo"
     ]
+  },
+  {
+    "id": "misery",
+    "order": 10,
+    "title": "Misery",
+    "artist": "The Beatles",
+    "album": "Please Please Me",
+    "year": 1963,
+    "key": {
+      "tonic": "C",
+      "mode": "major"
+    },
+    "scale": "Do mayor",
+    "practiceBpm": 110,
+    "info": "Segundo tema de Please Please Me, el primer disco de los Beatles. Lo grabaron el 11 de febrero de 1963, en la famosa sesión maratónica en la que hicieron casi todo el disco en un día. Lennon y McCartney cantan juntos la voz principal y George Martin agregó el piano después. Fue el primer tema de los Beatles que grabó otro artista: Kenny Lynch lo sacó en 1963, antes de que saliera el disco. Dura menos de dos minutos y, a pesar del título, va rápido.",
+    "analysis": "Está en Do mayor, la tonalidad más común del pop, y usa cuatro acordes: C (I), F (IV), G (V) y Am (vi). Arranca fuera de casa: la intro empieza en F – G (IV – V) y recién después aterriza en C, un truco que los Beatles usaron mucho. La estrofa se queda casi todo el tiempo en C – F (I – IV) y cierra con G – C – Am. El puente es el contraste: los acordes duran el doble y aparece Am (vi), el relativo menor de C, que es lo que le da el tono de queja al tema. Es la misma relación que hay entre G y Em en Wasted Years: las mismas notas, pero con la casa en otro lugar. Al final queda dando vueltas entre C y Am (I – vi) mientras se apaga. Todo se toca con acordes abiertos; el único con cejilla es F, y podés usar el F corto.",
+    "notes": "Forma y compases tomados del análisis de Alan W. Pollack sobre el tema. La última vuelta de cada estrofa cierra en Am cuando sigue otra estrofa, y en C cuando sigue el puente.",
+    "howto": [
+      {
+        "title": "Rasgueo",
+        "text": "Ritmo de beat de los 60: parejo y con empuje, sin swing. Probá ↓ ↓ ↓↑ ↓↑ por compás (abajo, abajo, abajo-arriba, abajo-arriba), acentuando el 2 y el 4. En el puente, como los acordes duran más, podés aflojar a cuatro golpes hacia abajo."
+      },
+      {
+        "title": "El bajo cromático de la intro",
+        "text": "Entre F y G el bajo sube de a un traste: F – F# – G. En la 6ª cuerda: traste 1, 2 y 3, y ahí armás el G.",
+        "tab": "E |---1---2---3---|\n      F   F#  G"
+      },
+      {
+        "title": "Entrada y salida del puente",
+        "text": "Para entrar al puente el bajo sube G – G# – A hasta el Am. Para salir baja por la escala de G a C, hasta la estrofa.",
+        "tab": "Entrada (hacia Am):\nA |-----------0---|\nE |---3---4-------|\n\nSalida (hacia C):\nA |-------------------3---|\nD |---5---3---2---0-------|"
+      }
+    ],
+    "sections": [
+      {
+        "id": "intro",
+        "name": "Intro",
+        "repeat": 1,
+        "note": "Empieza lento y fuera de casa",
+        "bars": [
+          "F",
+          "G",
+          "C Am",
+          "G"
+        ]
+      },
+      {
+        "id": "estrofa",
+        "name": "Estrofa",
+        "repeat": 1,
+        "note": "«I'm the kind of guy…»",
+        "bars": [
+          "C",
+          "F",
+          "C",
+          "F",
+          "F",
+          "G",
+          "C",
+          "Am"
+        ]
+      },
+      {
+        "id": "puente",
+        "name": "Puente",
+        "repeat": 1,
+        "note": "Los acordes duran el doble",
+        "bars": [
+          "Am",
+          "Am",
+          "C",
+          "C",
+          "Am",
+          "Am",
+          "G",
+          "G"
+        ]
+      },
+      {
+        "id": "final",
+        "name": "Final",
+        "repeat": 4,
+        "note": "Se apaga en fade",
+        "bars": [
+          "C",
+          "Am"
+        ]
+      }
+    ],
+    "form": [
+      "intro",
+      "estrofa",
+      "estrofa",
+      "puente",
+      "estrofa",
+      "puente",
+      "estrofa",
+      "final"
+    ]
   }
 ]
