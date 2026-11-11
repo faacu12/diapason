@@ -1022,5 +1022,113 @@
       "estrofa",
       "final"
     ]
+  },
+  {
+    "id": "anna-go-to-him",
+    "order": 11,
+    "title": "Anna (Go to Him)",
+    "artist": "The Beatles",
+    "album": "Please Please Me",
+    "year": 1963,
+    "key": {
+      "tonic": "D",
+      "mode": "major"
+    },
+    "scale": "Re mayor, con un Gm prestado en el puente",
+    "practiceBpm": 70,
+    "beats": 4,
+    "info": "Tercer tema de Please Please Me y uno de los covers del disco: el original es de Arthur Alexander, un cantante de soul de Alabama que lo grabó y lo sacó como single en 1962. John Lennon lo admiraba mucho y canta la voz principal. Es una balada soul lenta, con el pulso dividido en tresillos, y no tiene solo de guitarra.",
+    "analysis": "Está en Re mayor. La estrofa se balancea entre D y Bm (I – vi), un vaivén típico de las baladas de los 50 y 60, y cierra cada frase con Em – A7 – D (ii – V7 – I), la vuelta clásica del soul y el jazz para llegar a casa. El puente es lo más rico del tema. Arranca en G (IV) y vuelve a D, y después el G se vuelve Gm (iv). Ese Gm tiene un Si♭ que no está en Re mayor, un acorde «prestado» de Re menor que suena a suspiro triste. Después viene E7, que tampoco es de la tonalidad: es el «quinto del quinto» (V7/V), un acorde que empuja hacia A7. De ahí A7 (V7) te devuelve a D. Es mucha armonía para un tema de 1963 y explica por qué suena tan sentido.",
+    "notes": "Los compases del puente y el orden exacto de las partes son estimados a partir de transcripciones públicas. Gm se puede tocar fácil como x x 0 3 3 3 y E7 abierto como 0 2 0 1 0 0. En el disco no hay solo: el puente aparece dos veces.",
+    "howto": [
+      {
+        "title": "El pulso: tresillos",
+        "text": "Aunque se cuenta en 4, cada tiempo se divide en tres: «UNO-y-a DOS-y-a TRES-y-a CUATRO-y-a». Es el pulso de las baladas soul. Rasgueá suave hacia abajo en cada una de las tres partes y marcá un poco más el 2 y el 4. Probá primero con el modo Practicar a 60 bpm."
+      },
+      {
+        "title": "Arpegio para la estrofa",
+        "text": "Para que suene más parecido al disco, en vez de rasguear arpegiá: bajo, cuerda del medio, cuerda aguda, tres notas por tiempo. Dejá apretado el acorde completo y que las notas suenen juntas.",
+        "tab": "D:\nB |-----3-----3-----3-----3-|\nG |---2-----2-----2-----2---|\nD |-0-----0-----0-----0-----|\n\nBm:\nB |-----3-----3-----3-----3-|\nD |---4-----4-----4-----4---|\nA |-2-----2-----2-----2-----|"
+      },
+      {
+        "title": "Los acordes nuevos del puente",
+        "text": "Gm y E7 son los que todavía no tenías en otros temas. El Gm fácil sale con las tres cuerdas agudas en el traste 3 y la 4ª al aire (x x 0 3 3 3). Practicá el cambio G → Gm solo, en loop: es el momento en que el tema se pone triste, y que lo escuches es la mitad del ejercicio."
+      }
+    ],
+    "sections": [
+      {
+        "id": "intro",
+        "name": "Intro",
+        "repeat": 2,
+        "bars": [
+          "D",
+          "Bm",
+          "D",
+          "D"
+        ]
+      },
+      {
+        "id": "estrofa",
+        "name": "Estrofa",
+        "repeat": 1,
+        "note": "«Anna…»",
+        "bars": [
+          "D Bm",
+          "D Bm",
+          "D Bm",
+          "D Bm",
+          "Em A7",
+          "D Bm",
+          "D Bm",
+          "D Bm"
+        ]
+      },
+      {
+        "id": "puente",
+        "name": "Puente",
+        "repeat": 1,
+        "note": "«All of my life…»",
+        "bars": [
+          "G",
+          "G",
+          "D",
+          "D",
+          "G",
+          "G",
+          "D",
+          "D",
+          "G",
+          "G",
+          "Gm",
+          "Gm",
+          "E7",
+          "E7",
+          "A7",
+          "A7"
+        ]
+      },
+      {
+        "id": "final",
+        "name": "Final",
+        "repeat": 2,
+        "note": "«(Anna) go with him…»",
+        "bars": [
+          "D Bm",
+          "D Bm",
+          "D Bm",
+          "D"
+        ]
+      }
+    ],
+    "form": [
+      "intro",
+      "estrofa",
+      "estrofa",
+      "puente",
+      "estrofa",
+      "puente",
+      "estrofa",
+      "final"
+    ]
   }
 ]
